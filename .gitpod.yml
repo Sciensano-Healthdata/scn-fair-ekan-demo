@@ -7,7 +7,7 @@ tasks:
       ddev drush si -y --account-pass=admin --site-name='EKAN Demo'
     command: |
       ddev start -y
-      gp ports await 8080 && gp preview $(gp url 3000) --external
+      gp ports await 8080 && gp preview $(gp url 8080) --external
 vscode:
   extensions:
     # PHP extensions.
